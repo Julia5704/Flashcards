@@ -61,9 +61,10 @@ body {
 .cartão__conteúdo__resposta {
     color: var(--card-back-color);
     font-weight: 700;
+    margin-top: -2rem;
 }
 
-.cartão:hover .cartão__conteúdo {
+.cartão.active .cartão__conteúdo {
     transform: rotateY(180deg);
 }
 
